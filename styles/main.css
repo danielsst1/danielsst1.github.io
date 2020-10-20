@@ -1,0 +1,142 @@
+#profileImage {
+	margin-top: 560px;
+	margin-right: 20px;
+}
+
+.head {
+	padding-top: 640px;
+	margin-left: 20px;
+	color: white;
+}
+
+#cleanLink {
+	text-decoration: none;
+}
+
+.opener {
+	padding-top: 10px;
+	margin-left: 20px;
+	/*clear: right;*/
+}
+
+#intro {
+	padding-top: 60px;
+	clear: right;
+}
+
+.description {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+#second {
+	padding-top: 30px;
+	clear: left;
+}
+
+#pics {
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body {
+	margin:0;
+	background-color: #f6f3e9;
+	background-image: url("hillsCrop2.jpg");*/
+	background-size: 100%, auto; /*width, height */
+	/*background-size: cover;*/
+	background-repeat: no-repeat;
+	background-position: center top; /* horizontal, vertical axis */
+	/*background-attachment: fixed;*/
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: black; /*dark gray */
+	font-family: Helvetica, sans-serif;
+}
+
+p, ul, ol, dl {
+	color: black;
+	font-family: Georgia, serif;
+	font-size: 1.5em;
+	line-height: 1.4em;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #efe9d7;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #e0d5b3;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  float: right;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+a:link, a:visited {
+	color: pink;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: black;
+	background: orange;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+footer {
+	margin-left: 20px;
+}
+
+/*
+a:link {
+	color: red;
+}
+
+a:visited {
+	color: orange;
+}
+
+a:hover {
+	color: green;
+}
+
+a:active {
+	color: blue;
+}
+*/

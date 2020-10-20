@@ -1,44 +1,45 @@
 <!DOCTYPE html>
-  <html>
 
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1", charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <script src="functions.js"></script>
-  </head>
+<html lang = "en">
+	<head>
+		<meta charset="utf-8">
+		<title>Daniel</title>
+		<link rel="icon" type="image/png" href="images/logo3.png">
+		<link rel="stylesheet" href="styles/main.css">
+	</head>
 
-  <body>
-    <video autoplay muted loop id="myVideo">
-      <source src="corgi.mp4" type="video/mp4">
-      Your browser does not support HTML5 video.
-    </video>
+	<body>
+		<header>
+			<nav>
+				<ul>
+				  <li><a id="cleanLink" class="active" href="index.html">Home</a></li>
+				  <li><a id="cleanLink" href="cooking.html" title="link to cooking">Cooking</a></li>
+				  <li><a id="cleanLink"href="coding.html" title="link to coding">Coding</a></li>
+				  <li><a id="cleanLink"href="gaming.html" title="link to gaming">Gaming</a></li>
+				</ul>
+			</nav>
 
-    <div class="row">
-      <div id="scroller" class="column side">
-        <h3>History</h3>
-        <ul id='history'></ul>
-      </div>
-      
-      <!-- <div class="column middle">
-        <h2>Main Content</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
-      </div> -->
-      
-    </div>
+		</header>
 
-    <div class="content">
-      <h1 id=question class='center'>Pick a Question Difficulty</h1>
-      <button type="button" id="myBtn" onclick="getQuestion('easy')">Easy</button>
-      <button type="button" id="myBtn" onclick="getQuestion('medium')">Medium</button>
-      <button type="button" id="myBtn" onclick="getQuestion('hard')">Hard</button>
+		<main>
+			<img id="profileImage" src="images/Daniel.jpg" width="298" height="297" alt="Picture of me in a suit" title="Happy you tried to click my face :)">
+			<h1 class="head"><a id="cleanLink" href="index.html">Daniel</a></h1>
 
-      <!-- <button id="myBtn" onclick="myFunction()">Pause</button>
-      <button id="myBtn" onclick="myFunction()">Pause</button>
-      <button id="myBtn" onclick="myFunction()">Pause</button> -->
-    </div>
+			<section class="opener">
+				<h2>Oh hey didnt see you there...</h2>
+				<p>My name's Daniel, and this page you've landed on is all about me.</p>
+			</section>
 
+			<div class="description" id="intro">
+				<h2>Introduction</h2>
+				<p id="description">I study Computer Science at NYU, and three of my favorite hobbies are <a href="cooking.html" title="link to cooking">cooking</a>, <a href="coding.html" title="link to coding">coding</a>, and <a href="gaming.html" title="link to gaming">gaming</a>. Thats all you'll be hearing from me for now, but here's some dummy text to make the paragraph more full: Sunt officia nisi cupidatat veniam eu sit et non esse. Sit quis in elit cupidatat esse mollit irure qui duis duis sint magna ea ullamco laboris occaecat labore. Mollit dolore et cillum reprehenderit eu dolore quis ut sunt officia do tempor reprehenderit duis ullamco. Et proident ex laborum eu laborum deserunt eu nulla tempor commodo culpa aliquip ullamco. Eu dolor eu sint sit aliqua nisi ut occaecat in dolor mollit cillum. Lorem ipsum cillum aliquip do in eiusmod eu ut minim voluptate. Commodo duis aliqua laborum consectetur tempor excepteur culpa minim. Lorem ipsum velit laboris adipisicing amet dolor ut fugiat aliquip esse aliqua est dolor consequat cupidatat duis dolore tempor nisi.</p> <p id="second"> In cupidatat amet consectetur voluptate labore ea nulla incididunt dolore excepteur do excepteur aliquip ex eu eiusmod enim. Proident id nostrud amet enim elit consectetur quis dolore deserunt labore voluptate ullamco in qui anim proident non reprehenderit. Lorem ipsum dolor culpa sunt nisi tempor veniam aute qui labore incididunt qui esse sint occaecat culpa. Lorem ipsum mollit consectetur consectetur incididunt dolor voluptate ex fugiat in dolore laborum nisi enim sint culpa. Lorem ipsum excepteur laboris labore occaecat in magna aliqua fugiat consectetur. Reprehenderit in duis occaecat dolor officia nisi cupidatat dolor exercitation in veniam exercitation aute fugiat. Aute nostrud ut sit amet laborum occaecat deserunt velit sed cillum reprehenderit non labore aliquip voluptate sed. Eiusmod reprehenderit est ut pariatur adipisicing qui labore sunt. Lorem ipsum labore id ut id ullamco id nostrud aliqua tempor sunt sed elit labore esse.</p>
+			</section>
+		</main>
+		
+		<footer>
+			<p> <a href="https://cs.nyu.edu/courses/fall20/CSCI-UA.0004-004/" title="link to class home page">Intro to Web Design</a></p>
+		</footer>
+		
 
-  </body>
-
+	</body>
 </html>
